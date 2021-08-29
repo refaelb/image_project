@@ -1,0 +1,31 @@
+{
+  "name": "peopel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "github:types/express",
+    "datatime": "^1.0.0",
+    "express": "^4.17.1",
+    "model": "^6.0.1",
+    "mongoose": "^5.11.19",
+    "mongoose-schema-jsonschema": "^1.4.4",
+    "ng-pick-datetime": "^7.0.0",
+    "readline": "^1.3.0",
+    "typescript": "^4.2.3",
+    "typescript-json-schema": "^0.49.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "github:types/express",
+    "dotenv": "^9.0.0",
+    "mongoose-tsgen": "^7.1.3"
+  }
+}

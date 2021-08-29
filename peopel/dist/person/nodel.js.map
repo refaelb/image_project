@@ -1,0 +1,1 @@
+{"version":3,"file":"nodel.js","sourceRoot":"","sources":["../../src/person/nodel.ts"],"names":[],"mappings":";;;;;AAAA,wDAA+B;AAE/B,MAAM,EAAE,MAAM,EAAE,GAAG,kBAAQ,CAAC;AAC5B,MAAM,YAAY,GAAG,IAAI,MAAM,CAC3B;IACI,IAAI,EAAE,MAAM;IACZ,GAAG,EAAE,MAAM;CACd,CAAC,CAAA;AACN,IAAI,MAAM,GAAQ,kBAAQ,CAAC,KAAK,CAAC,KAAK,EAAE,YAAY,CAAG,CAAC"}
