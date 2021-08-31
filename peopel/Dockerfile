@@ -7,6 +7,7 @@ COPY ["package.json", "package-lock.json", "./"]
 RUN npm install
 COPY . .
 #refael
+# test
 # RUN chmod +x /index.ts
 # RUN cd /home/refael/peopel
 # RUN cd /dist
