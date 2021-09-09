@@ -14,7 +14,7 @@ images:
   #Supported values are "Always", "IfNotPresent" and "Never"
   ##########################################################
   pullPolicy: IfNotPresent
-  repository: nginx
+  repository: refael.azurecr.io/refaelb/image_project
   tag: "latest"
 
 service:
