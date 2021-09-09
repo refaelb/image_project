@@ -3,8 +3,8 @@ nameOverride: "service1"
 # If you want to overide the full name you can include the 'fullnameOverride' value
 
 configmap:
-  configmaps: [name: test]
-  autorestart_associated_deployments: true  
+  configmaps: []
+  autorestart_associated_deployments: false  
 
 imagePullSecrets: []
 replicaCount: 2
@@ -42,7 +42,6 @@ service:
 #   annotations: {}
 
 ingress:
-  enabled: true
   hosts:
   - host: chart-xample.local
     paths:
