@@ -1,0 +1,12 @@
+name: "testname"
+# If you want to overide the full name you can include the 'fullnameOverride' value
+#fullname:
+replicaCount: 1
+
+images:
+  PullSecrets: []
+  repository: nginx
+  tag: "latest"
+service:
+configmap:
+  configmaps: []
