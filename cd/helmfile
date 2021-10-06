@@ -1,6 +1,5 @@
 environments:
   dev:
-  prod:
 
 repositories:
 - name: yesodot
@@ -14,4 +13,5 @@ releases:
   chart: yesodot/common
   version: {{ requiredEnv "COMMON_VERSION" | default "0.5.1" }}
   values:
-    - ./environments/{{ .Environment.Name}}/values.yaml
+#    - ./environments/{{ .Environment.Name}}/values.yaml
+    - ./values.yaml
